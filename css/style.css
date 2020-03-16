@@ -1,0 +1,41 @@
+    body {
+        background-color: #1c1731;
+        color: #ffffff;
+    }
+    
+    .jumbotron {
+        background-color: #6b2155;
+        margin-bottom: 3rem;
+    }
+    
+    a {
+        color: #ffffff;
+    }
+    
+    a:hover {
+        color: #ad6397;
+    }
+    
+    .trending ul {
+        line-height: 2.5rem;
+        list-style-type: none;
+    }
+    
+    h3,
+    h4 {
+        margin: 1rem 0;
+    }
+    
+    #movies img,
+    #movie img {
+        width: 100%;
+    }
+    
+    @media(min-width:960px) {
+        #movies .col-md-3 .well {
+            height: 390px;
+        }
+        #movies .col-md-3 img {
+            height: 240px;
+        }
+    }
